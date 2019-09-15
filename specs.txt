@@ -1,0 +1,21 @@
+CS 480 001/002				 		 	Due: Sep. 25, 2019
+Fall 2019
+Dr. Duric
+
+
+							Homework #2 (40p)  
+
+In this homework you will solve exercises 4 & 5 from Chapter 2 of the book. (They are shown in
+https://artint.info/2e/html/ArtInt2e.Ch2.S7.html). Loving the exercises means modifying the AIPython code so that the code works to the specification. 
+
+Q4. (20p) Consider the â€œrobot trapâ€ in Figure 2.11.
+(a) (10p) This question is to explore why it is so tricky for a robot to get to location. Explain what the current robot does. Suppose one was to implement a robot that follows the wall using the â€œright-hand ruleâ€: the robot turns left when it hits an obstacle and keeps following a wall, with the wall always on its right. Is there a simple characterization of the situations in which the robot should keep following this rule or head towards the target?
+(b) (10p) An intuition of how to escape such a trap is that, when the robot hits a wall, it follows the wall until the number of right turns equals the number of left turns. Show how this can be implemented, explaining the belief state, and the functions of the layer.
+
+Q5. (20p) If the current target location were to be moved, the middle layer of Example 2.5 travels to the original position of that target and does not try to go to the new position. Change the controller so that the robot can adapt to targets moving.
+
+
+You should modify the layers of the robot controller implemented in AIPython to solve the problem. You will write the report detailing the changes of the code you make to solve the problem. In the report you should attach saved screens showing that your code runs properly. 
+Submit all your code and the report on the blackboard.
+
+Late days: You have a total of 10 late days which you can use as you see fit. After you use your 10 late days any assignment submitted after it will get 0 credit.
